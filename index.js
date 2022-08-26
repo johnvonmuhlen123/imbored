@@ -34,5 +34,6 @@ function get_type()
         document.querySelector('#specific').innerHTML = 'Wanna be a little more specific?'
         selCon.style.display = 'none'
     }
+
     
 }
