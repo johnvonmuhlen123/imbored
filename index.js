@@ -9,10 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 function get_task(type)
 {
-    fetch(`http://www.boredapi.com/api/activity?type=${type}`, {
-    // ...
-    referrerPolicy: "unsafe_url" 
-})
+    fetch(`http://www.boredapi.com/api/activity?type=${type}`)
     .then(response => response.json())
     .then(result => {
         console.log(result)
