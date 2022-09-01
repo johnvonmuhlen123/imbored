@@ -232,12 +232,3 @@ body {
   color: #FFF;
   font-size: 20px;
 }
-
-@media (min-width: 600px) {
-  body {
-    width: 65%;
-  }
-.form-select
-	{
-		width:25%;
-}
